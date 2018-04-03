@@ -6,19 +6,23 @@
     justify-content: center;
   }
 
-  &.vertical {
-    justify-content: center;
-  }
-
   &.between {
     justify-content: space-between;
-
-    &.vertical {
-      align-items: center;
-    }
   }
 
   &.is-column {
     flex-direction: column;
+
+    &.vertical {
+      justify-content: center;
+    }
   }
+
+  &.vertical:not(.is-column) {
+    align-items: center
+  }
+}
+
+.text-center {
+  text-align: center;
 }

@@ -3,11 +3,22 @@
   padding: 40px 0;
 
   .main__title {
-    font-size: 32px;
-    font-weight: 600;
+    margin-bottom: 40px;
+    line-height: 1.5;
+    width: 40%;
   }
 
   .search__form {
     display: inline;
+  }
+
+  .button--primary {
+    margin-right: 10px;
+  }
+}
+
+.intro__places {
+  .secondary__title {
+    margin-bottom: 30px;
   }
 }
