@@ -2,12 +2,27 @@
 title: Welcome to Plazes
 ---
 
-<nav class="nav align-flex between vertical">
-  <div>
-    <a href="#" class="nav__logo">Plazes</a>
-  </div>
-  <div>
-    <a href="#" class="nav__link">Descubrir Favoritos</a>
-    <a href="#" class="button button--ghost button--small">Iniciar Sesión</a>
+<nav class="nav">
+  <div class="container align-flex between vertical">
+    <div>
+      <a href="#" class="nav__logo">Plazes</a>
+    </div>
+    <div>
+      <a href="#" class="nav__link">Descubrir Favoritos</a>
+      <a href="#" class="button button--ghost button--small">Iniciar Sesión</a>
+    </div>
   </div>
 </nav>
+
+<div class="container">
+  <header class="intro__header align-flex vertical is-column">
+    <h1 class="main__title">Descubre lugares interesantes a donde ir por locales como tu</h1>
+    <div>
+      <form class="search__form">
+        <input type="search" name="search" placeholder="Prueba con México" class="search__input">
+        <input type="submit" value="Buscar" class="button button--primary button--large">
+      </form>
+      <a href="#" class="button button--ghost button--large">Crea tu lista</a>
+    </div>
+  </header>
+</div>

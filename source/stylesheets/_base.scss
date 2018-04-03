@@ -1,5 +1,11 @@
 *
 html,
 body {
+  -webkit-font-smoothing: antialiased;
   font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
 }

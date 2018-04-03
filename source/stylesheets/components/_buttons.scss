@@ -7,9 +7,21 @@
     color: $main-color;
   }
 
+  &--primary {
+    background: $main-color;
+    border: 0;
+    color: $light-color;
+  }
+
   &--small {
     border-radius: 3px;
     padding: 5px 10px;
+  }
+
+  &--large {
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 15px 30px;
   }
 
 }

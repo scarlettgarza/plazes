@@ -7,11 +7,15 @@
   }
 
   &.vertical {
-    align-items: center;
+    justify-content: center;
   }
 
   &.between {
     justify-content: space-between;
+
+    &.vertical {
+      align-items: center;
+    }
   }
 
   &.is-column {

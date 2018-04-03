@@ -1,0 +1,27 @@
+.search__input {
+  background-color: $light-gray;
+  background-image: url("../../images/search.svg");
+  background-position: 2% center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  border: 1px solid $gray;
+  border-radius: 3px;
+  color: $dark-color;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 15px 15px 45px;
+  width: 60%;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: $dark-color;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: $dark-color;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: $dark-color;
+}

@@ -2,7 +2,7 @@
 
 ### Structure:
 
-We are using a combination of BEM and SMACSS
+This is the structure we are going to use for the folders.
 
 ```
 stylesheets/
@@ -18,8 +18,14 @@ stylesheets/
 
 ### Rules:
 
+* We are using a combination between BEM and SMACSS.
+* Use 2 spaces for identation.
+* Give its own line to each selector.
+* Leave a blank space between opening braces ```{```
+
+For example:
 ```css
-.main__header {
+.nav__link {
   font-size: 18px;
   line-height: 1.2;
 }
