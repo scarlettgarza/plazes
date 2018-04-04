@@ -3,21 +3,42 @@
   padding: 40px 0;
 
   .title--main {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     line-height: 1.5;
-    width: 40%;
+    width: 45%;
   }
 
   .input--search { width: 60%; }
 
   .button + .button,
   .input--search + .button { margin-left: 10px };
-
-
 }
 
-.intro--places {
-  .title--secondary {
-    margin-bottom: 30px;
+.intro {
+
+  &--places {
+    .card--place__container {
+      margin-bottom: 30px;
+    }
+  }
+
+  &--places,
+  &--experiences {
+    .title--secondary { margin-bottom: 30px; }
+  }
+
+  &--experiences {
+    background: $light-gray;
+    padding: 50px 0;
+
+    .card--experiences {
+      width: 49.8%;
+
+      &__container {
+        @extend .align-flex;
+        @extend .between;
+        margin-bottom: 50px;
+      }
+    }
   }
 }
