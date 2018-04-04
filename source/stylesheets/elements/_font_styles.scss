@@ -1,15 +1,12 @@
-.main__title {
-  font-size: 32px;
+.title {
   font-weight: 600;
+
+  &--main {font-size: 32px; }
+  &--secondary {font-size: 18px; }
 }
 
-.secondary__title {
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.main__link {
-  @extend .secondary__title;
+.link--main {
+  @extend .title--secondary;
   color: $action-color;
   display: block;
   text-decoration: underline;

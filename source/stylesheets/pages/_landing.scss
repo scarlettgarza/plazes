@@ -1,24 +1,23 @@
-.intro__header {
+.header__intro {
   height: 30vh;
   padding: 40px 0;
 
-  .main__title {
+  .title--main {
     margin-bottom: 40px;
     line-height: 1.5;
     width: 40%;
   }
 
-  .search__form {
-    display: inline;
-  }
+  .input--search { width: 60%; }
 
-  .button--primary {
-    margin-right: 10px;
-  }
+  .button + .button,
+  .input--search + .button { margin-left: 10px };
+
+
 }
 
-.intro__places {
-  .secondary__title {
+.intro--places {
+  .title--secondary {
     margin-bottom: 30px;
   }
 }

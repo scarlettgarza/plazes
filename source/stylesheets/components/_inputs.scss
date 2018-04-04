@@ -1,17 +1,17 @@
-.search__input {
-  background-color: $light-gray;
-  background-image: url("../../images/search.svg");
-  background-position: 2% center;
-  background-repeat: no-repeat;
-  background-size: 20px;
-  border-radius: 3px;
-  border: 1px solid $gray;
-  color: $dark-color;
-  font-size: 16px;
-  font-weight: 600;
-  margin-right: 10px;
-  padding: 15px 15px 15px 45px;
-  width: 60%;
+.input {
+  &--search {
+    background-color: $light-gray;
+    background-image: url("../../images/search.svg");
+    background-position: 2% center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    border-radius: 3px;
+    border: 1px solid $gray;
+    color: $dark-color;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 15px 15px 45px;
+  }
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
